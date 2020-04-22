@@ -1,0 +1,10 @@
+form(action="/todos" , method="GET")
+  input(
+    type='text'
+    name='q'
+  )
+  button(type='button' class='btn') submit
+  
+ul
+ each list in datas
+   li= list
